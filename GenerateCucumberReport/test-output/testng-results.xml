@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GenerateJSONFileTestSuite" duration-ms="608" started-at="2017-07-19T00:16:01Z" finished-at="2017-07-19T00:16:02Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.automation.CucumberRunner@4e7dc304]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="@VerifyJSONFile" duration-ms="608" started-at="2017-07-19T00:16:01Z" finished-at="2017-07-19T00:16:02Z">
+      <class name="com.automation.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.automation.CucumberRunner@4e7dc304]" name="setUpClass" is-config="true" duration-ms="266" started-at="2017-07-18T17:16:01Z" finished-at="2017-07-18T17:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.automation.CucumberRunner@4e7dc304]" name="feature" duration-ms="247" started-at="2017-07-18T17:16:01Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-07-18T17:16:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[As a user generate JSON file from Jenkins]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.automation.CucumberRunner@4e7dc304]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2017-07-18T17:16:02Z" finished-at="2017-07-18T17:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.automation.CucumberRunner -->
+    </test> <!-- @VerifyJSONFile -->
+  </suite> <!-- GenerateJSONFileTestSuite -->
+</testng-results>

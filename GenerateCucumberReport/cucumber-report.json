@@ -1,0 +1,68 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 247570,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomeScreen.launchBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify Home Screen",
+        "description": "",
+        "id": "user-verify-home-screen;verify-home-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 85306,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomeScreen.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 151328045,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer Navigate to Home Screen",
+            "match": {
+              "location": "HomeScreen.Customer_Navigate_to_Home_Screen()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@VerifyHomeScreen"
+          }
+        ]
+      }
+    ],
+    "name": "User Verify Home Screen",
+    "description": "",
+    "id": "user-verify-home-screen",
+    "keyword": "Feature",
+    "uri": "HomePage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@VerifyHome"
+      }
+    ]
+  }
+]

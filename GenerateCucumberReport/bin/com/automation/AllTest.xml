@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTest" thread-count="10">
+	<suite-files>
+		<suite-file path="./GenerateJSONFile.xml" />
+	</suite-files>
+</suite>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.automation.CucumberRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-07-18T22:39:23" hostname="106415.local" time="8.31">
+  <properties/>
+  <testcase name="feature[0](As a user generate JSON file from Jenkins)" classname="com.automation.CucumberRunner" time="8.31"/>
+  <system-out><![CDATA[15:39:23.945 [Test worker] DEBUG c.o.jenkins.client.JenkinsHttpClient - uri=http://decap07.walgreens.com:8022/job/Walgreens/job/NativeApps/job/IOS/job/Regression/job/OSprint/
+15:39:24.446 [Test worker] DEBUG c.o.jenkins.client.JenkinsHttpClient - uri=http://decap07.walgreens.com:8022/job/Walgreens/job/NativeApps/job/Android/job/Regression/job/Core-Regression/job/Dry_Run/
+jsonPath/Users/jag/Desktop/GenerateCucumberReport/cucumber-report.json
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,46 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user able to generate JSON file from Jenkins",
+        "description": "",
+        "id": "as-a-user-generate-json-file-from-jenkins;verify-user-able-to-generate-json-file-from-jenkins",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155223232,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User generate JSON file from Jenkins",
+            "match": {
+              "location": "GenerateJsonFileStep.User_generate_JSON_file_from_Jenkins()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@VerifyJSONFile"
+          }
+        ]
+      }
+    ],
+    "name": "As a user generate JSON file from Jenkins",
+    "description": "",
+    "id": "as-a-user-generate-json-file-from-jenkins",
+    "keyword": "Feature",
+    "uri": "GenerateJsonFile.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@GenerateJsonFile"
+      }
+    ]
+  }
+]
