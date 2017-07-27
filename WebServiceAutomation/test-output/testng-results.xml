@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GoogleMapGetRequestTest" duration-ms="1936" started-at="2017-07-27T05:26:36Z" finished-at="2017-07-27T05:26:38Z">
+    <groups>
+    </groups>
+    <test name="VerifyGoogleMapGetRequest" duration-ms="1936" started-at="2017-07-27T05:26:36Z" finished-at="2017-07-27T05:26:38Z">
+      <class name="com.jagathes.service.WebServiceAutomation.GoogleMapGetRequestTest">
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:com.jagathes.service.WebServiceAutomation.GoogleMapGetRequestTest@2b98378d]" name="setBaseUri" is-config="true" duration-ms="368" started-at="2017-07-26T22:26:36Z" finished-at="2017-07-26T22:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseUri -->
+        <test-method status="PASS" signature="testStatusCode()[pri:0, instance:com.jagathes.service.WebServiceAutomation.GoogleMapGetRequestTest@2b98378d]" name="testStatusCode" duration-ms="1545" started-at="2017-07-26T22:26:37Z" finished-at="2017-07-26T22:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode -->
+      </class> <!-- com.jagathes.service.WebServiceAutomation.GoogleMapGetRequestTest -->
+    </test> <!-- VerifyGoogleMapGetRequest -->
+  </suite> <!-- GoogleMapGetRequestTest -->
+</testng-results>

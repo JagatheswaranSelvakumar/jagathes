@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GoogleMapGetRequestTest" thread-count="1" verbose="1">
+	<test name="VerifyGoogleMapGetRequest" junit="false" preserve-order="true">
+		<classes>
+			<class name="com.jagathes.service.WebServiceAutomation.GoogleMapGetRequestTest" />
+		</classes>
+	</test>
+
+</suite>
